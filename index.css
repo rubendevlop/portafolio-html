@@ -1,0 +1,244 @@
+/* display: grid;
+    grid-template-columns: 5fr 4fr;
+    place-items: center; */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-image: url('img/NJ8n2ctoL0.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        font-family: 'Roboto', sans-serif;
+        height: 100vh;
+        
+    }
+    /* Navegacion menu principal */
+    .padre-menu{
+        margin: 0;
+    }
+    header{
+        background-color: #f99042;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px; 
+        margin: 0; 
+        border: 1px solid #000;
+    }
+    
+    .nav-menu{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        
+    }
+    .nav-menu a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .nav-menu a:hover{
+        color: black;
+    }
+    
+
+
+
+    /* informacion principal */
+
+    
+.padre{
+    margin: 0%;  
+}
+.flex-padre{
+    margin-top: 30px;
+    width: 100%;   
+}
+
+.flex-item{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #f99042;
+    justify-content: center;
+    width: 160px;
+    height: 220px;
+    border-radius: 10px;
+}
+.flex-item img{
+    width: 150px;
+    height: 100px;
+    margin: 20px 5px;
+}
+
+.contenedor-texto{
+    background-color: white;
+    margin: 0 20px;
+    text-align: center; 
+    border-radius: 5px;
+}
+.contenedor-texto:hover{
+    background-color: black;
+}
+.contenedor-texto a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold
+}
+.contenedor-texto a:hover{
+    color: white;
+}
+
+    /* contenedor */
+    .contenedor-flex{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .flex-item2{
+        display: flex;
+        flex-direction: column;
+        background-color: #f99042;
+        justify-content: center;
+        width: 160px;
+        height: 220px;
+        border-radius: 10px;
+        margin: 0 90px;
+    }
+    .flex-item2 img{
+        width: 150px;
+        height: 100px;
+        margin: 20px 5px;
+    }
+    .contenedor-texto2{
+        background-color: white;
+        margin: 0 20px;
+        text-align: center;  
+        border-radius: 5px;
+    }
+    .contenedor-texto2:hover{
+        background-color: black;
+    }
+    .contenedor-texto2 a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold
+    }
+    .contenedor-texto2 a:hover{
+        color: white;
+    }
+    
+    /* padre 2 contenedor */
+    .padre-dos{
+        margin: 0;
+    }
+
+    /* menu extra */
+
+    .trabajos-nav{
+        background-color: #f99042;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        /* border: 1px solid #000; */
+    }
+    .trabajos-nav h4{
+        text-align: center;
+        
+    }
+    .navegacion-trabajos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        
+       
+    }
+    .navegacion-trabajos a{
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
+    .navegacion-trabajos a:hover{
+        color: black;
+    }
+   
+    
+    
+    .nosotros{
+
+        display: grid;  
+        grid-template-columns: repeat(2, auto);
+        justify-content: space-around;
+        
+    }
+    .persona{
+        
+        display: grid;
+        text-align: center;
+        margin-left: 20px;
+        
+    }
+
+    .emprendedores{
+
+        display: grid;  
+        grid-template-columns: repeat(2, auto);
+        justify-content: space-around;
+    }
+    .emprendedores h4{
+        display: grid;
+        background-color: #ff7514;
+        margin: 10px auto;
+        padding: 4px 5px;
+        border-radius: 4px;
+    }
+    .emprendedores p{
+        display: grid;
+        margin: 10px 0;
+        font-weight: lighter;
+        
+    }
+
+    .nosotros img{
+        border-radius: 500px;
+        width: 200px;
+        height: 200px;
+        border: #ff7514 10px double;
+    }
+
+    .footer{
+        padding: 50px;
+        background-color: gray;
+        
+    }
+    .link-footer{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+    .link-footer i{
+        color: white;
+        text-align: center;
+    }
+    .link-footer a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    .pie-footer{
+        text-align: center;
+        color: white;
+    }
+
+   
