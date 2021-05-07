@@ -101,7 +101,7 @@
         flex-flow: row wrap;
         justify-content: center;
         width: 100%;
-        margin: 0 auto;
+        margin: 100px auto;
     }
     .flex-item2{
         display: flex;
@@ -147,7 +147,7 @@
         background-color: #f99042;
         width: 100%;
         margin-top: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 100px;
         padding-top: 10px;
         padding-bottom: 10px;
         /* border: 1px solid #000; */
@@ -174,6 +174,7 @@
         display: grid;  
         grid-template-columns: repeat(2, auto);
         justify-content: space-around;
+        margin-bottom: 100px;
         
     }
     .persona{
@@ -192,7 +193,7 @@
     }
     .emprendedores h4{
         display: grid;
-        background-color: #ff7514;
+        background-color: #f99042;
         margin: 10px auto;
         padding: 4px 5px;
         border-radius: 4px;
@@ -208,10 +209,11 @@
         border-radius: 500px;
         width: 200px;
         height: 200px;
-        border: #ff7514 10px double;
+        border: #f99042 10px double;
     }
 
-    footer{
+    .footer{
+        margin-top: 1000px;
         padding: 50px;
         background-color: gray;
         
@@ -236,3 +238,78 @@
         color: white;
     }
     
+
+    /* descripcion */
+
+    .contenedor-descripcion-nuestra{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 200px;
+    }
+    .descripcion-nuestra{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 100px;
+
+    }
+    .descripcion-nuestra img{
+        width: 450px;
+    }
+    .descripcion-principal{
+        background-color: #f99042;
+        padding: 10px 10px;
+        text-align: left;
+        margin: 100px 0;
+        border-radius: 8px;
+    }
+    .descripcion-principal h2{
+        font-size: 25px;
+    }
+    .descripcion-principal p{
+        font-size: 12px;
+        font-weight: lighter;
+    }
+
+    /* separo */
+
+    .descripcion-nuestra2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        background-color: #f99042;
+        padding-top: 20px;
+    }
+    .descripcion-nuestra2 h2{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+        padding: 10px;
+        background-color: #fbfdffd7;
+        border-radius: 10px;
+    }
+
+    .contenedor-padre-p{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+    }
+
+    .contenedor-p{
+        border-radius: 10px;
+        padding: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 10px;
+        font-weight: lighter;
+        margin-bottom: 10px;
+        background-color: #fbfdffd7;
+        
+    }
+
