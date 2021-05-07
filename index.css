@@ -53,6 +53,7 @@
 
     
 .padre{
+    height: 100vh;
     margin: 0%;  
 }
 .flex-padre{
@@ -155,14 +156,7 @@
         text-align: center;
         
     }
-    .navegacion-trabajos{
-        display: flex;
-        flex-direction: row;
-        flex-wrap:wrap;
-        justify-content: space-around;
-        
-       
-    }
+
     .navegacion-trabajos a{
         font-weight: bold;
         color: white;
@@ -175,6 +169,7 @@
     
     
     .nosotros{
+        
 
         display: grid;  
         grid-template-columns: repeat(2, auto);
@@ -190,7 +185,7 @@
     }
 
     .emprendedores{
-
+        
         display: grid;  
         grid-template-columns: repeat(2, auto);
         justify-content: space-around;
@@ -216,7 +211,7 @@
         border: #ff7514 10px double;
     }
 
-    .footer{
+    footer{
         padding: 50px;
         background-color: gray;
         
@@ -240,5 +235,4 @@
         text-align: center;
         color: white;
     }
-
-   
+    
