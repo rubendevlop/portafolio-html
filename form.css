@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    margin: 0;
     background-image: url('img/NJ8n2ctoL0.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,7 +14,11 @@ body{
     height: 100vh;
     
 }
+
+
 /* Navegacion menu principal */
+
+
 .padre-menu{
     margin: 0;
 }
@@ -46,6 +51,7 @@ header{
 .form{
     display: flex;
     flex-direction: column;
+    height: 77.5vh;
 }
 .nombre{
     background-color: #f99042;
@@ -89,3 +95,30 @@ button{
     width: 270px;
     border-radius: 10px;
 }
+
+
+footer{
+    padding: 50px;
+    background-color: gray;
+    
+}
+.link-footer{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.link-footer i{
+    color: white;
+    text-align: center;
+}
+.link-footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.pie-footer{
+    text-align: center;
+    color: white;
+}
+
